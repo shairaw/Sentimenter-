@@ -62,15 +62,26 @@ In our methodology, we have opted to not perform stemming or lemmatisation ofwor
 Next, we applied feature extraction, feature models play a very important role in classification purposes, this refers to an approach which defines in which feature and what way they are going to be used to classify new data into the specific type of class. In this context, it means the selection of text and converting it into scalable vectors of numbers. The current literature suggests that the choice of feature extraction methods depends on the suitability of the classification model. Hence, we have chosen to use N-Grams with TF-IDF weighting as the literature suggests that this method achieves the best performance.
 To avoid overfitting the machine learning model, which is when the model fails to generalise to unseen data, we have performed a train-test split on the dataset. Literature suggests that an 80:20 train-test split is a good ratio that promotes goodness of fit. Then, we trained the model on the training subset and tested it on the (unseen) test set to validate that it can perform well on new data. Finally, we can assess the model’s performance on the unseen test set, to get an unbiased estimate of the accuracy.
 
+# Methodology 
+
+Pipeline <br/>
+<img src="https://i.imgur.com/iHvvmen.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
+
+
+
 # Testing and comparing Models
 
 After rigorous testing and re-testing of multiple models, Logistic Regression emerged as the optimal choice due to its simplicity, ease of training, and low computational requirements. Particularly effective in low-dimensional datasets with sufficient training points, it proved less prone to overfitting. Addressing the major limitation of assuming linearity between the dependent and independent variables, Logistic Regression proved particularly effective in our task. Its suitability for low-dimensional datasets with am- ple training points minimises the risk of overfitting. Through meticulous training on a substantial 50,000 reviews dataset, this model demonstrated remarkable prowess, se- curing an impressive accuracy of 90%. Furthermore, the model only took 6 seconds to train on the 50,000 review dataset (attach reference to table) and could be expanded to include real-time reviews if need be, emerging as a viable solution if the project is expanded in the future. Recognising its efficiency, Logistic Regression was integrated into our GUI to enhance user accessibility and streamline the sentiment analysis process for end-users. This model, with its inherent strengths and adaptability, stands as the cornerstone solution within our project.
 
 
-
-<br/>
-<img src="https://imgur.com/5eebd6b4-cc91-40f6-b989-695aaa67113b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Classification Models and Performance Metrics <br/>
+<img src="https://i.imgur.com/sM4DoPV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 
 
 # GUI
