@@ -1,6 +1,5 @@
 <h1>Sentimeter -Sentiment Analysis for Film Reviews</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 The product is a user-friendly interface in the form of a GUI with a Logistic regression model at the backend. The team employed Scrum Agile Methodology for structured management, the project's success lies in its efficient transformer model development, achieving a commendable 90% accuracy. 
@@ -67,8 +66,21 @@ To avoid overfitting the machine learning model, which is when the model fails t
 
 After rigorous testing and re-testing of multiple models, Logistic Regression emerged as the optimal choice due to its simplicity, ease of training, and low computational requirements. Particularly effective in low-dimensional datasets with sufficient training points, it proved less prone to overfitting. Addressing the major limitation of assuming linearity between the dependent and independent variables, Logistic Regression proved particularly effective in our task. Its suitability for low-dimensional datasets with am- ple training points minimises the risk of overfitting. Through meticulous training on a substantial 50,000 reviews dataset, this model demonstrated remarkable prowess, se- curing an impressive accuracy of 90%. Furthermore, the model only took 6 seconds to train on the 50,000 review dataset (attach reference to table) and could be expanded to include real-time reviews if need be, emerging as a viable solution if the project is expanded in the future. Recognising its efficiency, Logistic Regression was integrated into our GUI to enhance user accessibility and streamline the sentiment analysis process for end-users. This model, with its inherent strengths and adaptability, stands as the cornerstone solution within our project.
 
+
+
+<br/>
+<img src="https://imgur.com/5eebd6b4-cc91-40f6-b989-695aaa67113b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
 # GUI
 Prioritising user experience, our GUI is designed with a keen focus on user-friendliness, ensuring an intuitive and straightforward interface for seamless interaction. Key fea- tures include labelled buttons, a minimalistic design approach, sensible font choices, and an efficient pop-up system for user confirmation and output display. Whilst designing the GUI, privacy considerations are integral. Standardising formats and minimising features not only contribute to a clean interface but also reduce the risk of unintentional data exposure. Stringent data privacy measures are implemented to safeguard user information throughout the sentiment analysis process. This GUI was implemented using Pickle library through Jupyter Notebook. 
+
+
+<br/>
+<img src="https://i.imgur.com/ws2qN5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
 
 
 # Privacy frameworks
